@@ -8462,6 +8462,8 @@ button.bg-black:focus {
   margin-right: auto !important;
 }
 
+
+
 .mb-auto,
 .my-auto {
   margin-bottom: auto !important;
@@ -10702,6 +10704,7 @@ body {
   background-clip: text;
   -webkit-text-stroke: 0.3px black;
 }
+
 .masthead h2 {
   max-width: 60rem;
   font-size: 3rem;
@@ -10721,7 +10724,13 @@ body {
     font-size: 6.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
+    padding-top: 25px;
   }
+
+  .masthead span {
+    letter-spacing: 0rem;
+  }
+
   .masthead h2 {
     max-width: 30rem;
     font-size: rem;
